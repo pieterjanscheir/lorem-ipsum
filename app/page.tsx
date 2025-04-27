@@ -1,6 +1,6 @@
 import { LoremIpsumGenerator } from '@/components/lorem-ipsum-generator'
 import { ThemeToggle } from '@/components/theme-toggle'
-import { GithubIcon } from 'lucide-react'
+import { GithubIcon, HeartIcon } from 'lucide-react'
 
 export default function Home() {
 	return (
@@ -22,11 +22,13 @@ export default function Home() {
 							href='https://scheir.eu'
 							className='flex items-center hover:text-foreground transition-colors font-medium'
 						>
-							Made with ❤️ by Pieter-Jan Scheir
+							Made with <HeartIcon className='h-4 w-4 mx-1 fill-red-500 stroke-red-400' /> by Pieter-Jan
+							Scheir
 						</a>
 						<div className='hidden sm:block text-border'>|</div>
 						<a
 							href='https://github.com/pieterjanscheir/lorem-ipsum'
+							target='_blank'
 							className='flex items-center hover:text-foreground transition-colors'
 						>
 							<GithubIcon className='mr-2 h-4 w-4' />
