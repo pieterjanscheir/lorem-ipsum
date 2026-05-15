@@ -1,6 +1,6 @@
 import { LoremIpsumGenerator } from '@/components/lorem-ipsum-generator'
 import { ThemeToggle } from '@/components/theme-toggle'
-import { GithubIcon, HeartIcon } from 'lucide-react'
+import { CodeIcon, HeartIcon } from 'lucide-react'
 
 export default function Home() {
 	return (
@@ -31,7 +31,7 @@ export default function Home() {
 							target='_blank'
 							className='flex items-center hover:text-foreground transition-colors'
 						>
-							<GithubIcon className='mr-2 h-4 w-4' />
+							<CodeIcon className='mr-2 h-4 w-4' />
 							Source Code
 						</a>
 					</div>
